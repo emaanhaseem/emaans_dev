@@ -1,0 +1,67 @@
+body {
+  background-image: url(abbott_anderson_peacock.jpg);
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
+}
+
+.biome {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: center;
+  /* background-color:blueviolet; */
+  align-content: start;
+}
+
+.macrobiome {
+  /* background-color: aliceblue; */
+  flex: 1;
+}
+
+.macrobiome:nth-of-type(2) {
+  flex: 2;
+  align-self: stretch;
+}
+
+.microbiome {
+  height: 300px;
+  color: aliceblue;
+}
+
+/* @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
