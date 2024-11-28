@@ -1,29 +1,29 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 
-// export default defineComponent({
-//   name: 'AnimatedBox',
-//   setup() {
-//     const box = ref<HTMLDivElement | null>(null);
+export default defineComponent({
+  name: 'AnimatedBox',
+  setup() {
+    const box = ref<HTMLDivElement | null>(null);
 
-//     const animateBox = () => {
-//       if (box.value) {
-//         box.value.classList.toggle('animate');
-//       }
-//     };
+    const animateBox = () => {
+      if (box.value) {
+        box.value.classList.toggle('animate');
+      }
+    };
 
-//     return { box, animateBox };
-//   },
-// });
+    return { box, animateBox };
+  },
+});
 </script>
 
 <template>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- <div>
+  <div>
     <div ref="box" class="box">Animate Me!</div>
     <button @click="animateBox">Animate</button>
-</div> -->
+</div>
 
   <div class="biome">
     <div class="macrobiome">
