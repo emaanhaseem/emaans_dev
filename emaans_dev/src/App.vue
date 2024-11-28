@@ -59,15 +59,15 @@ export default defineComponent({
     <div class="macrobiome"></div>
     <div class="macrobiome">
         <div class="microbiome">
-          <h2>...Clean!</h2>
+          <h2 class="h2-meadow">...Clean!</h2>
         </div>
 
         <div class="microbiome">
-          <h2>~Sleek</h2>
+          <h2 class="h2-meadow">~Sleek</h2>
         </div>
 
         <div class="microbiome">
-          <h2>Composed !!!</h2>
+          <h2 class="h2-meadow">Composed !!!</h2>
         </div>
 
         <div>
