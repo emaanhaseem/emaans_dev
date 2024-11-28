@@ -1,5 +1,5 @@
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref } from 'vue'
 
 // export default defineComponent({
 //   name: 'AnimatedBox',
@@ -15,65 +15,67 @@ import { defineComponent, ref } from 'vue';
 //     return { box, animateBox };
 //   },
 // });
-
 </script>
 
 <template>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- <div>
+  <!-- <div>
     <div ref="box" class="box">Animate Me!</div>
     <button @click="animateBox">Animate</button>
 </div> -->
 
-<div class="biome">
-  <div class="macrobiome">
-    <!-- <p>1w</p> -->
-  </div>
-  <div class="macrobiome">
-    <!-- <p>2w</p> -->
+  <div class="biome">
     <div class="macrobiome">
-    <div>
-      <h1>Emaan Haseem</h1>
+      <!-- <p>1w</p> -->
     </div>
+    <div class="macrobiome">
+      <!-- <p>2w</p> -->
+      <div class="macrobiome">
+        <div>
+          <h1>Emaan Haseem</h1>
+        </div>
 
-    <div class="microbiome">
-      <h3>...So you're here for my resume...</h3>
-      <p>can i offer you some green eggs and ham instead?</p>
-      <p>no, you said? well that's a shame - how else shall i get this bread?</p>
+        <div class="microbiome">
+          <h3>...So you're here for my resume...</h3>
+          <p>can i offer you some green eggs and ham instead?</p>
+          <p>no, you said? well that's a shame - how else shall i get this bread?</p>
+        </div>
+
+        <div class="microbiome">
+          <h3>Well that's fine I guess</h3>
+          <p>I'll deal I suppose</p>
+          <p>Or... shall I offer you something...</p>
+        </div>
+
+        <div class="microbiome">
+          <h2>More:</h2>
+        </div>
+
+        <div class="microbiome">
+          <h2>...Clean!</h2>
+        </div>
+
+        <div class="microbiome">
+          <h2>~Sleek</h2>
+        </div>
+
+        <div class="microbiome">
+          <h2>Composed !!!</h2>
+        </div>
+
+        <div>
+          <iframe
+            src="https://pdflink.to/cd3162c8/embed/"
+            style="width: 60vw; height: 70vw"
+          ></iframe>
+        </div>
+      </div>
     </div>
-
-    <div class="microbiome">
-      <h3>Well that's fine I guess</h3>
-      <p>I'll deal I suppose</p>
-      <p>Or... shall I offer you something...</p>
-    </div>
-
-    <div class="microbiome">
-      <h2>More:</h2>
-    </div>
-
-    <div class="microbiome">
-      <h2>...Clean!</h2>
-    </div>
-
-    <div class="microbiome">
-      <h2>~Sleek</h2>
-    </div>
-
-    <div class="microbiome">
-      <h2>Composed !!!</h2>
-    </div>
-
-    <div>
-      <iframe src="https://pdflink.to/cd3162c8/embed/" style="width: 60vw; height: 70vw;"></iframe>
+    <div class="macrobiome">
+      <!-- <p>3w</p> -->
     </div>
   </div>
-  </div>
-  <div class="macrobiome">
-    <!-- <p>3w</p> -->
-  </div>
-</div>
 </template>
 
 <style scoped>
@@ -86,8 +88,6 @@ import { defineComponent, ref } from 'vue';
 /* .flex-container {
   background-image: url(emaans_dev/src/assets/rustams_first_course.webp);
 } */
-
-
 
 h1 {
   font-family: 'Funnel Display', sans-serif;
