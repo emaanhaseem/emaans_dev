@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-  background-image: url(abbott_anderson_peacock.jpg);
-  background-repeat: repeat-y;
-  background-size: 100% 100%;
+  background-color: rgba(5, 30, 2, 0.882);
 }
 
 .biome {
@@ -13,6 +13,36 @@ body {
   float: center;
   /* background-color:blueviolet; */
   align-content: start;
+}
+
+.biome-swampy {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: center;
+  /* background-color:blueviolet; */
+  align-content: start;
+
+  background-image: url(abbott_anderson_peacock.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.biome-meadow {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  float: center;
+  /* background-color:blueviolet; */
+  align-content: start;
+
+  background-image: url(artist_point.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .macrobiome {
@@ -65,3 +95,13 @@ a,
     padding: 0 2rem;
   }
 } */
+
+
+.h2-meadow {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

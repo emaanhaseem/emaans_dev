@@ -20,12 +20,12 @@ export default defineComponent({
 <template>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <div>
+  <!-- <div>
     <div ref="box" class="box">Animate Me!</div>
     <button @click="animateBox">Animate</button>
-</div>
+</div> -->
 
-  <div class="biome">
+  <div class="biome-swampy">
     <div class="macrobiome">
       <!-- <p>1w</p> -->
     </div>
@@ -51,7 +51,13 @@ export default defineComponent({
         <div class="microbiome">
           <h2>More:</h2>
         </div>
-
+        </div>
+        </div>
+        <div class="macrobiome"></div>
+  </div>
+  <div class="biome-meadow">
+    <div class="macrobiome"></div>
+    <div class="macrobiome">
         <div class="microbiome">
           <h2>...Clean!</h2>
         </div>
@@ -71,7 +77,6 @@ export default defineComponent({
           ></iframe>
         </div>
       </div>
-    </div>
     <div class="macrobiome">
       <!-- <p>3w</p> -->
     </div>
